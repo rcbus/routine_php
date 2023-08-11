@@ -6,14 +6,13 @@ if(!isset($PATHB)){
 	$PATHB = "";
 }
 
-$NO_BOTTOM = 1;
-
 include_once $PATH.$PATHB.'../RCD_7/version-app.php';
 $_VERSION_RCD = $_VERSION;
 
 include_once $PATH.$PATHB.'version-app.php';
 $_VERSION_APP = $_VERSION;
 
+include_once $PATH.$PATHB.'class/define.php';
 include_once $PATH.$PATHB.'../RCD_7/load.php';
 include_once $PATH.$PATHB.'../security/routine_php.php';
 
